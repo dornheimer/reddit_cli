@@ -1,6 +1,7 @@
 ## reddit CLI
 
-CLI for displaying threads in a subreddit
+CLI for displaying threads in a subreddit. submission URLs can be selected and
+opened in the browser.
 
     usage: reddit_cli [-h] [--limit [integer]] [--sort] subreddit [subreddit ...]
 
