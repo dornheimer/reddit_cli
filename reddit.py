@@ -32,6 +32,7 @@ def parse_command_line():
                         metavar="integer",
                         nargs="?",
                         type=int,
+                        default=10,
                         const=10,
                         help="maximum number of posts per subreddit")
     parser.add_argument("--sort",
