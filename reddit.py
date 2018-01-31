@@ -94,15 +94,6 @@ def main(args):
     for sub in subreddits:
         display_subreddit(sub, limit=args.limit, sort=args.sort)
 
-# for submission in reddit.subreddit('cavesofqud').hot(limit=10):
-#     print(submission.title)
-    #
-    # subreddit = reddit.subreddit("cavesofqud")
-    # for submission in subreddit.hot(limit=10):
-    #     print(Fore.CYAN + submission.title)
-    #     print(Style.DIM + f"[{submission.url}]")
-    #     print()
-
 
 if __name__ == "__main__":
     args = parse_command_line()
